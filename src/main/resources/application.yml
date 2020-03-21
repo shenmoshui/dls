@@ -1,0 +1,13 @@
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enable: true
+      force: true
+
+
+server:
+  host: http://localhost:8080/
+  port: 8080
+  servlet:
+    context-path: /
